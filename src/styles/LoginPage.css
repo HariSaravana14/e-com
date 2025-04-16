@@ -1,0 +1,131 @@
+    /* Login Page Wrapper */
+    .login-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 380px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(12px);
+        border-radius: 12px;
+        padding: 25px;
+        text-align: center;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    /* Login Page Title */
+    .login-wrapper h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        color: rgb(15, 12, 12);
+        text-transform: uppercase;
+    }   
+
+    /* Input Box */ 
+    .login-input-box {
+        position: relative;
+        margin: 15px 0;
+    }
+
+    .login-input-box input {
+        width: 90%;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.2);
+        color: #000; /* Changed to black for better visibility */
+        outline: none;
+        transition: 0.3s ease-in-out;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added shadow for input box */
+    }
+
+    .login-input-box input::placeholder {
+        color: rgba(0, 0, 0, 0.7); /* Changed to a darker color for better visibility */
+    }
+
+    .login-input-box input:focus {
+        background: rgba(255, 255, 255, 0.4);
+    }
+
+    /* Icons */
+    .login-input-box i {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+    }
+
+    /* Remember Me & Forgot Password */
+    .login-remember-forgot {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        margin: 15px 0;
+        color: rgb(0, 0, 0);
+    }
+
+    .login-remember-forgot a {
+        text-decoration: none;
+        color: #9d4edd  ;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .login-remember-forgot a:hover {
+        text-decoration: underline;
+    }
+
+    /* Login Button */
+    .login-btn {
+        width: 100%;
+        padding: 12px;
+        background: linear-gradient(to right, #9d4edd, #f72585);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .login-btn:hover {
+        background: linear-gradient(to right, #f72585, #9d4edd);
+    }
+
+    /* Register Link */
+    .login-register-link {
+        margin-top: 15px;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+    }
+
+    .login-register-link a {
+        text-decoration: none;
+        color: #9d4edd;
+        font-weight: bold;
+    }
+
+    .login-register-link a:hover {
+        text-decoration: underline;
+    }
+
+    /* Background */
+    .login-page-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right, #5a189a, #9d4edd, #f72585);
+    }
+
+    /* Responsive */
+    @media (max-width: 420px) {
+        .login-wrapper {
+            width: 90%;
+            padding: 20px;
+        }
+    }

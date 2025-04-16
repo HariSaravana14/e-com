@@ -1,0 +1,248 @@
+.wishlist-page-container {
+    max-width: 1200px;
+    margin: 5px auto;
+    padding: 20px;
+  }
+  
+  .wishlist-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .wishlist-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .wishlist-item {
+    display: flex;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: all 0.2s ease;
+  }
+  
+  .wishlist-item:hover {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .remove-wishlist-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 24px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+  }
+  
+  .remove-wishlist-btn:hover {
+    background-color: #f5f5f5;
+    color: #ff4343;
+  }
+  
+  .wishlist-product-image {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .wishlist-product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .wishlist-product-image:hover img {
+    transform: scale( 1.05);
+  }
+  
+  .wishlist-product-info {
+    flex-grow: 1;
+  }
+  
+  .wishlist-product-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .wishlist-product-name:hover {
+    color: #2874f0;
+  }
+  
+  .wishlist-product-brand {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .wishlist-size-available {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .wishlist-price-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .wishlist-offer-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .wishlist-original-price {
+    font-size: 14px;
+    color: #888;
+    text-decoration: line-through;
+    margin-right: 10px;
+  }
+  
+  .wishlist-discount {
+    font-size: 14px;
+    color: #388e3c;
+  }
+  
+  .wishlist-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 140px;
+    margin-left: 20px;
+  }
+  
+  .wishlist-add-to-cart {
+    background-color: #ff9f00;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .wishlist-add-to-cart:hover {
+    background-color: #f39000;
+  }
+  
+  .wishlist-footer {
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .continue-shopping-link {
+    color: #2874f0;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .continue-shopping-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Empty wishlist styles */
+  .empty-wishlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .empty-wishlist-icon {
+    font-size: 60px;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+  }
+  
+  .empty-wishlist h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #212121;
+  }
+  
+  .empty-wishlist p {
+    font-size: 16px;
+    color: #666;
+    max-width: 500px;
+    margin-bottom: 30px;
+  }
+  
+  .continue-shopping {
+    background-color: #2874f0;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .continue-shopping:hover {
+    background-color: #1a65d6;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .wishlist-item {
+      flex-wrap: wrap;
+    }
+    
+    .wishlist-product-image {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .wishlist-actions {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wishlist-product-image {
+      width: 80px;
+      height: 80px;
+      margin-right: 15px;
+    }
+    
+    .wishlist-offer-price {
+      font-size: 16px;
+    }
+    
+    .wishlist-original-price, .wishlist-discount {
+      font-size: 12px;
+    }
+  }
