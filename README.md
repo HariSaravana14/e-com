@@ -1,8 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
@@ -71,11 +66,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 SCREEN SHOTS:
-![wishlist](https://github.com/user-attachments/assets/477153c8-18b8-4d64-942a-dae6c54517c2)
-![product page](https://github.com/user-attachments/assets/79f13bc4-ae32-44a1-b1cf-2956614f722f)
-![product filter](https://github.com/user-attachments/assets/70293d4e-31dc-4e3e-8d26-1c8daab6d8c9)
-![product detail page](https://github.com/user-attachments/assets/1e5f1f57-fd50-49a6-a91d-25ad42b7660c)
-![landing page](https://github.com/user-attachments/assets/a63b59c9-f100-4191-8a75-5f2b56f96bfa)
-![contact](https://github.com/user-attachments/assets/1605148a-53d6-4e52-81e5-7555a12fd5b3)
-![addtocart](https://github.com/user-attachments/assets/72b0ca04-2548-4171-9faf-2b450f144ade)
-![about](https://github.com/user-attachments/assets/cd194042-2e72-4220-9ef3-6308ebb1359e)
+
+Landing page:
+![landing page](https://github.com/user-attachments/assets/af3c5820-fc92-41b3-bfe4-62521bd07018)
+
+About page:
+![about](https://github.com/user-attachments/assets/722ebf1d-bf03-40ff-a616-e0e2483a09ed)
+
+Product page:
+![product page](https://github.com/user-attachments/assets/adec7348-57f5-412b-b1be-7269839b4072)
+
+Product filter:
+![product filter](https://github.com/user-attachments/assets/10c53f76-7f1f-461d-b2e6-1b2168b017e9)
+
+Add to Cart page:
+![addtocart](https://github.com/user-attachments/assets/8c60fb98-41ef-4763-ba47-11052aed9491)
+
+Product Detail page:
+![product detail page](https://github.com/user-attachments/assets/1b2ce2e2-9045-4e99-b741-5592ad7ac729)
+
+Wishlist page:
+![wishlist](https://github.com/user-attachments/assets/3d2d7e2b-644f-4d08-b574-947b408ead4c)
